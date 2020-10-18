@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="let result of donutList?.results">
+        <a routerLink="/donutdetail/{{result.id}}">{{result.name}}</a>
+        <!--<app-donut-detail [url]="result.ref">{{result.name}}</app-donut-detail>-->
+    </li>
+</ul>
